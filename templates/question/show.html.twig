@@ -1,0 +1,9 @@
+{% extends "base.html.twig" %}
+
+{% block title %}{{question.titre}}{% endblock %}
+
+{% block body %}
+    <h1>{{ question.titre}}</h1>
+    <p>{{ question.contenu }}</p>
+
+{% endblock %}
